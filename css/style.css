@@ -1,8 +1,13 @@
 body {
-  max-width: 1200px;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
@@ -14,6 +19,7 @@ h1 {
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: -0.6px;
+  padding-top: 38px;
 }
 
 li {
@@ -38,6 +44,10 @@ h2 {
 }
 
 .main_menu li {
+  padding-top: 43px;
+}
+
+.main_menu li:not(:first-child) {
   padding-right: 35px;
 }
 
@@ -68,10 +78,12 @@ h2 {
 h2::after {
   display: block;
   height: 7px;
-  background-color: black;
+  background-color: #4ec6ab;
   width: 164px;
   content: '';
-  padding-top: 5px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+  margin-top: 32px;
 }
 
 .shop_item {
@@ -85,8 +97,47 @@ h2::after {
 
 .news {
   float: left;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
+  margin-right: 30px;
 }
 
 .shop li:not(:nth-last-child(1)) {
   margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.news_lorem {
+  color: #555252;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.28px;
+  padding-bottom: 15px;
+}
+
+h4 {
+  color: #555252;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.36px;
+}
+
+.button {
+  padding: 17px 39px 20px 47px;
+  background-color: #4ec6ab;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h3 {
+  display: block;
+  float: left;
+  margin: 0px;
+}
+
+span {
+  display: block;
+  float: right;
+}
