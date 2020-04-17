@@ -1,0 +1,92 @@
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #555252;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1::first-letter {
+  color: #1abc9c;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #515151;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+
+.main_menu li {
+  padding-right: 35px;
+}
+
+.nav_menu {
+  float: right;
+  color: #0f0101;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 11px;
+  text-transform: uppercase;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.logo {
+  text-transform: uppercase;
+  float: left;
+}
+
+.nav_menu:hover {
+  color: #1abc9c;
+}
+
+h2::after {
+  display: block;
+  height: 7px;
+  background-color: black;
+  width: 164px;
+  content: '';
+  padding-top: 5px;
+}
+
+.shop_item {
+  float: left;
+  width: 255px;
+}
+
+.features {
+  background-color: #e9f0fd;
+}
+
+.news {
+  float: left;
+  width: 350px;
+}
+
+.shop li:not(:nth-last-child(1)) {
+  margin-right: 30px;
