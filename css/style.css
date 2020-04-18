@@ -10,6 +10,11 @@ ul {
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
 h1 {
   margin: 0;
   padding: 0;
@@ -74,7 +79,7 @@ h2 {
 .nav_menu:hover {
   color: #1abc9c;
 }
-
+/* shop section */
 h2::after {
   display: block;
   height: 7px;
@@ -91,8 +96,61 @@ h2::after {
   width: 255px;
 }
 
+.cost_panel:hover {
+  background-color: #1abc9c;
+}
+
 .features {
   background-color: #e9f0fd;
+  float: left;
+}
+
+.shop li:not(:nth-last-child(1)) {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+span {
+  float: right;
+  color: #ffffff;
+  padding: 12px 12px 11px 12px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.item {
+  float: left;
+  margin: 0 auto;
+}
+
+.item a {
+  padding: 14px 13px 13px 13px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cost_panel {
+  float: left;
+  width: 255px;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 0px,
+    rgb(0, 0, 0) 201px,
+    rgb(0, 0, 0, 0.44) 201px,
+    rgb(0, 0, 0, 0.44) 255px
+  );
+}
+
+.cost_panel a {
+  color: #ffffff;
+}
+
+/* news section */
+h4 {
+  color: #555252;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.36px;
 }
 
 .news {
@@ -100,11 +158,6 @@ h2::after {
   max-width: 350px;
   width: 100%;
   margin-right: 30px;
-}
-
-.shop li:not(:nth-last-child(1)) {
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .news_lorem {
@@ -117,13 +170,6 @@ h2::after {
   padding-bottom: 15px;
 }
 
-h4 {
-  color: #555252;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: -0.36px;
-}
-
 .button {
   padding: 17px 39px 20px 47px;
   background-color: #4ec6ab;
@@ -131,13 +177,19 @@ h4 {
   color: #ffffff;
 }
 
-h3 {
-  display: block;
-  float: left;
-  margin: 0px;
+/* .block {
+  width: 300px;
+  height: 200px;
+  background: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/15/14/pp-hot-coffee-rf-istock.jpg)
+    no-repeat 0 / cover;
 }
-
-span {
+.block:after {
+  content: '';
   display: block;
-  float: right;
+  height: 100%;
+  background-color: rgba(142, 96, 15, 0.5);
+  transition: background-color 0.3s linear;
 }
+.block:hover:after {
+  background-color: rgba(142, 96, 15, 0);
+} */
