@@ -5,9 +5,17 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  display: block;
+}
+
 ul {
   margin: 0px;
   padding: 0px;
+}
+
+header {
+  padding: 48px 0px 105px 0px;
 }
 
 p {
@@ -31,8 +39,6 @@ h1 {
   line-height: 32px;
   text-transform: uppercase;
   letter-spacing: -0.6px;
-  padding-top: 38px;
-  padding-bottom: 105px;
 }
 
 li {
@@ -52,14 +58,14 @@ h2 {
   color: #515151;
   font-size: 48px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 35px;
   letter-spacing: -0.96px;
   padding: 0px;
   margin: 0px;
+  padding-top: 0px;
 }
 
 .main_menu li {
-  padding-top: 48px;
   letter-spacing: -0.31px;
 }
 
@@ -71,7 +77,7 @@ h2 {
   float: right;
   color: #0f0101;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 11px;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
@@ -146,7 +152,7 @@ h3 {
 span {
   float: right;
   color: #ffffff;
-  padding: 5px 12px 4px 12px;
+  padding: 10px 12px 10px 12px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -216,7 +222,7 @@ h4::after {
 
 .button {
   display: inline-block;
-  padding: 17px 39px 20px 47px;
+  padding: 18px 44px 18px 44px;
   background-color: #4ec6ab;
   text-decoration: none;
   color: #ffffff;
